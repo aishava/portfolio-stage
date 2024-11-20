@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    background-color: #6267A3;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+h1 {
+    margin-top: 11vh;
+}
+
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+nav a {
+    padding: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+}
+
+.menu-content {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 2.6vh;
+}
+
+.intro-tekst {
+    width: 44vw;
+    position: absolute;
+    top: 50%;
+}
+
+.about-tekst {
+    width: 44vw;
+    position: absolute;
+    top: 50%;
+    left: 10vw;
+}
+
+h2 {
+    position: absolute;
+    top: 44%;
+    left: 27.5vw;
+}
+
+.Unesco-tekst {
+    position: absolute;
+    top: 40%;
+    width: 35vw;
+    right: 5vw;
+}
+
+.Calm-tekst {
+    position: absolute;
+    top: 55%;
+    width: 35vw;
+    right: 5vw;
+}
+
+.unesco-img {
+    width: 25vw;
+    position: absolute;
+    top: 29%;
+    left: 25vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.calm-img {
+    width: 25vw;
+    position: absolute;
+    top: 60%;
+    left: 25vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.about-me-img {
+    width: auto;
+    height: 16vw;
+    position: absolute;
+    top: 42%;
+    right: 18vh;
+    border-radius: 76%;
+}
